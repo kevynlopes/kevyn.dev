@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Syne } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+// import SwitchTheme from "@/components/SwitchTheme";
 
 const syne = Syne({
   subsets: ["latin"],

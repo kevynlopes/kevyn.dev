@@ -1,12 +1,14 @@
 import HeroSection from "@/components/HeroSection";
-import MainSection from "@/components/MainSection";
+import AboutSection from "@/components/AboutSection";
+import WorkSection from "@/components/WorkSection";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-accent text-6xl font-bold">
+      <h1 className="font-bold">
         <HeroSection />
-        <MainSection />
+        <AboutSection />
+        <WorkSection />
       </h1>
     </div>
   );
