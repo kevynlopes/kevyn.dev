@@ -35,9 +35,9 @@ export default function WorkCard({
               className="flex flex-col relative ml-6 mb-4 max-sm:-ml-12"
             >
               <div>{job.title}</div>
-              <div className="text-sm text-secondary">{job.date}</div>
+              <div className="text-sm text-neutral-600">{job.date}</div>
 
-              <div className="text-neutral-600 font-light w-150 max-sm:w-90 ">
+              <div className="text-secondary font-light w-150 max-sm:w-90 ">
                 {job.description}
               </div>
             </div>
