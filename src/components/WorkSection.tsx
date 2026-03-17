@@ -24,10 +24,27 @@ const jobGoStart = [
   },
 ];
 
+const job3ti = [
+  {
+    title: "Desenvolvedor Full Stack Pleno",
+    date: "Present",
+    description:
+      "Liderança técnica na criação de um ecossistema B2B, envolvendo CRM e Marketplace, atuando desde a concepção da solução até a entrega em produção. Desenvolvimento e manutenção de APIs REST utilizando Node.js (Express) e TypeScript, aplicando regras de negócio complexas e escaláveis. Criação de interfaces modernas, responsivas e performáticas com React, Next.js, Tailwind CSS e CSS moderno (Flexbox, Grid). Participação ativa em decisões de arquitetura, organização de camadas e definição de padrões técnicos. Aplicação consistente de Clean Code, SOLID, POO e DDD no desenvolvimento front-end e back-end. Integração e modelagem de dados utilizando PostgreSQL e MongoDB. Atuação colaborativa em ambiente ágil (Scrum), contribuindo no planejamento técnico e evolução contínua do produto.",
+  },
+];
+
 export default function WorkSection() {
   return (
     <div className="mx-auto container relative mt-60 max-sm:p-8">
       <TitleTab number="02" title="Work" />
+
+      <WorkCard
+        companyName="3ti Softwares LTDA"
+        image="/images/companyImages/3ti_softwares_ltda_logo.png"
+        job={job3ti}
+        title="2025 - Atual"
+        time="Araraquara, São Paulo, Brasil"
+      />
 
       <WorkCard
         companyName="GoStartLab"
