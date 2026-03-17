@@ -9,7 +9,7 @@ type Props = {
 
 export default function SocialCard({ text, icon: Icon, className }: Props) {
   return (
-    <div className="text-secondary inline-flex items-center gap-2 border-r-4 border-t border-b-2 px-2 py-1 rounded-2xl hover:scale-x-110 hover:bg-neutral-900 cursor-pointer">
+    <div className="text-secondary inline-flex items-center gap-2 border-r-3 border-b-2 px-2 py-1 rounded-2xl hover:scale-x-110 hover:bg-neutral-900 cursor-pointer border-t">
       <Icon className={className} />
       <div>{text}</div>
     </div>
