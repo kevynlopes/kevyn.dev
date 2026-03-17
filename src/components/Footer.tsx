@@ -3,7 +3,7 @@ import advanzzze from "../../public/images/LogoOffWhite.svg";
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between px-120 text-secondary border-t border-neutral-600 p-8 mt-40">
+    <footer className="max-sm:flex-col max-sm:items-center flex justify-around text-secondary border-t border-neutral-600 max-sm:p-4 p-8 mt-40">
       <div>© 2026 Kevyn Lopes</div>
       <div className="flex items-center gap-2">
         Advanzzze
