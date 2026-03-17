@@ -11,7 +11,7 @@ export default function AboutSection() {
       <div className="text-4xl text-secondary mt-7">OLÁ</div>
       <div className="flex gap-32 max-sm:flex-col">
         <div>
-          <div className="text-lg max-sm:text-lg text-secondary max-sm:w-100 font-light flex-1">
+          <div className="text-lg max-sm:text-lg text-secondary max-sm:w-80 font-light flex-1">
             Sou um desenvolvedor web full stack com experiência na criação de
             aplicações modernas, escaláveis e performáticas. Atuo no
             desenvolvimento de interfaces com React, Next.js e TypeScript, além

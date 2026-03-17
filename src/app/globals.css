@@ -6,6 +6,10 @@
   --color-tertiary: #090909;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: #000;
   overflow-x: hidden;
