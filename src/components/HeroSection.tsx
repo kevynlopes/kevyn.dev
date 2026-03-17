@@ -38,7 +38,7 @@ export default function HeroSection() {
           />
         </div>
 
-        <div className="hidden bottom-30 -right-20 text-lg text-neutral-600 font-light rotate-90 md:block fixed">
+        <div className="hidden bottom-50 -right-20 text-lg text-neutral-600 font-light rotate-90 md:block fixed">
           local time: <Timer />
         </div>
       </div>

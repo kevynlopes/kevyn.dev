@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Syne } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 // import SwitchTheme from "@/components/SwitchTheme";
 
 const syne = Syne({
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className={`${syne.className} antialiased bg--topography`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
