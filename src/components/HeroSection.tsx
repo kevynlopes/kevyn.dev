@@ -7,10 +7,10 @@ export default function HeroSection() {
   return (
     <div>
       <div className="container mx-auto  h-screen max-sm:px-8">
-        <div className="text-9xl font-bold pt-40 max-xl:text-8xl max-sm:text-6xl text-transparent bg-clip-text lg:bg-[url('/images/scratch.png')] bg-secondary">
+        <div className="text-9xl font-bold pt-40 max-xl:text-8xl max-sm:text-7xl text-transparent bg-clip-text lg:bg-[url('/images/scratch.png')] bg-secondary">
           Kevyn Lopes
         </div>
-        <div className="text-9xl font-bold max-xl:text-8xl max-sm:text-6xl text-transparent bg-clip-text bg-[url('/images/scratch.png')] bg-neutral-300">
+        <div className="text-9xl font-bold max-xl:text-8xl max-sm:text-4xl text-transparent bg-clip-text bg-[url('/images/scratch.png')] bg-neutral-300 max-sm:w-90">
           Engenheiro de Software<span className="text-secondary">.</span>
         </div>
 
