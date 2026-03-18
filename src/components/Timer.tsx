@@ -2,7 +2,11 @@
 
 import { useEffect, useState } from "react";
 
-export default function Timer() {
+type Props = {
+  className?: string;
+};
+
+export default function Timer({ className }: Props) {
   const [currentTime, setCurrentTime] = useState(new Date());
 
   useEffect(() => {
@@ -14,8 +18,11 @@ export default function Timer() {
   }, []);
 
   return (
-    <div suppressHydrationWarning className="inline text-secondary p-4">
-      {currentTime.toLocaleTimeString()}
-    </div>
+    <time
+      suppressHydrationWarning
+      className={className ?? "inline text-secondary"}
+    >
+      {currentTime.toLocaleTimeString("pt-BR")}
+    </time>
   );
 }

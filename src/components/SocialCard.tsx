@@ -1,4 +1,3 @@
-import Image from "next/image";
 import type { IconType } from "react-icons";
 
 type Props = {
@@ -9,7 +8,7 @@ type Props = {
 
 export default function SocialCard({ text, icon: Icon, className }: Props) {
   return (
-    <div className="text-secondary inline-flex items-center gap-2 border-r-3 border-b-2 px-2 py-1 rounded-2xl hover:scale-x-110 hover:bg-neutral-900 cursor-pointer border-t">
+    <div className="inline-flex cursor-pointer items-center gap-2 rounded-full border border-neutral-700 bg-black/45 px-4 py-2 text-sm text-secondary transition duration-300 hover:-translate-y-0.5 hover:border-secondary hover:bg-neutral-900">
       <Icon className={className} />
       <div>{text}</div>
     </div>
